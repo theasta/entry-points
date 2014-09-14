@@ -1,0 +1,23 @@
+{
+  "name": "entry-points",
+  "version": "0.1.0",
+  "description": "Map and parse entry points dependencies using tags",
+  "main": "index.js",
+  "author": "Alexandrine Boissière",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theasta/entry-points.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "esprima": "^1.2.2",
+    "glob": "^4.0.5",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
+}

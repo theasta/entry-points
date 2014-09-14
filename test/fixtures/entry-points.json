@@ -1,0 +1,27 @@
+{
+    "level1-a": [],
+    "level1-b": [],
+
+    "level2-a": [ "level1-a" ],
+    "level2-b": [ "level1-a" ],
+    "level2-c": [ "level1-a" ],
+
+    "level3-a": [ "level2-a" ],
+    "level3-b": [ "level2-a" ],
+    "level3-c": [ "level2-a" ],
+    "level3-d": [ "level2-a" ],
+    "level3-e": [ "level2-a" ],
+
+    "level3-f": [ "level2-b" ],
+    "level3-g": [ "level2-b" ],
+
+    "level3-h": [ "level2-c" ],
+
+    "level4-a": [ "level3-a" ],
+    "level4-b": [ "level3-a" ],
+    "level4-c": [ "level3-a" ],
+    "level4-d": [ "level3-a" ],
+    "level4-e": [ "level3-a" ],
+
+    "multi": [ "level4-a", "level4-b" ]
+}
