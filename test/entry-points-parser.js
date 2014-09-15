@@ -37,7 +37,7 @@ describe('Entry Points Parser', function () {
 
     describe('#getParents()', function () {
         it('should return all the bundles that have children', function () {
-            assert.deepEqual(parser.getParents(), [ 'level4-b', 'level4-a', 'level3-a', 'level2-c', 'level2-b', 'level2-a', 'level1-a' ]);
+            assert.deepEqual(parser.getParents(), [ 'level4-a', 'level4-b', 'level3-a', 'level2-a', 'level2-b', 'level2-c', 'level1-a' ]);
         });
     });
 

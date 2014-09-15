@@ -1,6 +1,6 @@
 {
   "name": "entry-points",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Map and parse entry points dependencies using tags",
   "main": "index.js",
   "author": "Alexandrine Boissière",
